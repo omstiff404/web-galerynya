@@ -1,7 +1,7 @@
 // config.js - Configuration for GitHub Gallery
 const GITHUB_CONFIG = {
     username: 'omstiff404',          // Ganti dengan username GitHub Anda
-    repo: 'gallery-repo',            // Ganti dengan nama repository Anda
+    repo: 'media-web',            // Ganti dengan nama repository Anda
     branch: 'main',                  // Branch yang digunakan
     
     // Path folders
