@@ -969,21 +969,22 @@
                 this.currentImageData = null;
             }
 
-            // FUNCTION DOWNLOAD YANG SIMPLE DAN PASTI WORK
+            // FUNCTION DOWNLOAD LANGSUNG DENGAN GITHUB DIRECT DOWNLOAD URL
             downloadImage() {
                 if (!this.currentImage) return;
                 
+                const filename = this.currentImageData?.name || 'image.jpg';
+                
+                // Build GitHub direct download URL
+                // Format: https://github.com/username/repo/raw/branch/folder/filename
+                const directDownloadUrl = `https://github.com/${CONFIG.github.username}/${CONFIG.github.repo}/raw/${CONFIG.github.branch}/${CONFIG.github.folders.images}/${filename}`;
+                
+                // Buat link download
                 const link = document.createElement('a');
-                link.href = this.currentImage;
-                
-                let filename = 'gallery-image.jpg';
-                if (this.currentImageData && this.currentImageData.name) {
-                    filename = this.currentImageData.name;
-                }
-                
-                // Ini kunci utamanya - attribute download
+                link.href = directDownloadUrl;
                 link.download = filename;
                 
+                // Trigger download langsung
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -1036,4 +1037,4 @@
         });
     </script>
 </body>
-</html>
+                    </html>
