@@ -52,4 +52,8 @@ const CONFIG = {
     getTikTokApiUrl: function() {
         return `${this.github.tiktok.apiUrl}?username=${this.github.tiktok.username}`;
     }
+        // Tambahkan function untuk direct download
+    getDirectDownloadUrl: function(filename) {
+        return `https://github.com/${this.github.username}/${this.github.repo}/raw/${this.github.branch}/${this.github.folders.images}/${filename}`;
+    }
 };
