@@ -24,7 +24,7 @@ const GITHUB_CONFIG = {
     
     // App settings
     app: {
-        name: 'StiffGallery',
+        name: 'Stiff Gallery',
         autoPlayMusic: true,
         refreshInterval: 15,
         cacheDuration: 10
