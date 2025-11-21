@@ -1,4 +1,4 @@
-# StiffGallery 🎨
+# Stiff Gallery 🎨
 
 <div align="center">
 
