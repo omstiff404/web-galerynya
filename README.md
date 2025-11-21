@@ -13,7 +13,7 @@
 
 *A stunning gallery platform for TikTok creators to showcase their content*
 
-[Live Demo](https://omtiff-api.vercel.app) • [Report Bug](https://github.com/omstiff404/web-galerynya/issues) • [Request Feature](https://github.com/omstiff404/web-galerynya/issues)
+[Live Demo](https://omstiff-galery.vercel.app/) • [Report Bug](https://github.com/omstiff404/web-galerynya/issues) • [Request Feature](https://github.com/omstiff404/web-galerynya/issues)
 
 </div>
 
